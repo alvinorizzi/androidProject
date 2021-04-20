@@ -40,5 +40,10 @@ public class SegundaActivity2 extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void abreComments(View View) {
+        Intent intent = new Intent(this, Comments.class);
+        startActivity(intent);
+    }
+
 
 }

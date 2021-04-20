@@ -17,6 +17,7 @@
         <activity android:name=".Post" />
         <activity android:name=".Photos" />
         <activity android:name=".Albums" />
+        <activity android:name=".Comments" />
         <activity android:name=".SplashActivity2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
