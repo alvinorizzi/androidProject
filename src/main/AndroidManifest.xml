@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.login">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +14,9 @@
         android:theme="@style/Theme.Login">
         <activity android:name=".SegundaActivity2"></activity>
         <activity android:name=".MainActivity" />
+        <activity android:name=".Post" />
+        <activity android:name=".Photos" />
+        <activity android:name=".Albums" />
         <activity android:name=".SplashActivity2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

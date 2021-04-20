@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 TextView tSenha = (TextView) findViewById(R.id.tSenha);
                 String Login = tLogin.getText().toString();
                 String Senha = tSenha.getText().toString();
-                    if (Login.equals("Alvino") && Senha.equals("Alvino")) {
+                    if (Login.equals("alvino") && Senha.equals("alvino")) {
                     alert("Login Realizado com Sucesso");
                         abreSegundaActivity(v);
                      } else {

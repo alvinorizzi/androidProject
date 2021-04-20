@@ -8,11 +8,12 @@ import android.view.View;
 
 public class SegundaActivity2 extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_segunda2);
-    }
+           }
 
     public void abreSplashActivity2(View View) {
         Intent intent = new Intent(this, SplashActivity2.class);
@@ -23,5 +24,21 @@ public class SegundaActivity2 extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
+    public void abrePost(View View) {
+        Intent intent = new Intent(this, Post.class);
+        startActivity(intent);
+    }
+
+    public void abrePhotos(View View) {
+        Intent intent = new Intent(this, Photos.class);
+        startActivity(intent);
+    }
+
+    public void abreAlbums(View View) {
+        Intent intent = new Intent(this, Albums.class);
+        startActivity(intent);
+    }
+
 
 }
